@@ -461,7 +461,7 @@ Responsive
         left: 64px;
     }
     .banner {
-        height: 95vh;
+        height: 100%;
     }
     .banner .ucco {
         width: 100%;
