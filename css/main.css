@@ -133,6 +133,7 @@ button.hamburger, a.colorchange, .socials {
     right: 80px;
     padding: 15px 0;
 }
+
 .socials > .some {
     display: block;
     position: relative;
@@ -180,6 +181,7 @@ a.colorchange {
     background-size: contain;
     transition: .2s all ease;
 }
+
 a.colorchange:hover {
     opacity: 0.6;
 }
@@ -431,4 +433,93 @@ code.html6:last-of-type {
     left: 50px;
 }
 
-
+/*******
+Responsive
+********/
+@media (max-height: 700px) {
+    .banner .ucco {
+        padding-bottom: 200px !important;
+    }
+    .s2 .content h2 {
+        margin-top: 80px !important;
+    }
+    .s2 .blocks.headings h3 {
+        margin: 0 !important;
+    }
+}
+@media (max-width: 768px) {
+    button.hamburger {
+        left: 10px;
+    }
+    .socials {
+        right: 10px;
+    }
+    a.colorchange {
+        left: 110px;
+    }
+    .colors {
+        left: 64px;
+    }
+    .banner .ucco {
+        width: 100%;
+        padding-bottom: 300px;
+        bottom: 0;
+    }
+    .banner h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .banner p {
+        padding-top: 0;
+    }
+    .banner .texts {
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+        right: auto;
+        padding: 90px 20px 0 20px;
+    }
+    .banner .texts #code pre {
+        font-size: 12px !important;
+    }
+    .s2 .content {
+        max-width: 100%;
+    }
+    .s2 .content h2 {
+        margin-top: 40px;
+    }
+    .s2 .blocks {
+        padding: 0;
+    }
+    .s2 .blocks .block {
+        margin: 4px;
+    }
+    .s2 .blocks.headings h3 {
+        margin: 0 0px 60px 0px;
+        font-size: 16px;
+    }
+    .s2 .box {
+        margin: 0px 15px;
+    }
+    #page2 .fp-section .fp-controlArrow.fp-next {
+        right: 10px;
+        border-width: 26.5px 0 26.5px 12px;
+    }
+    #page2 .fp-section .fp-controlArrow.fp-prev {
+        left: 10px;
+        border-width: 26.5px 12px 26.5px 0;
+    }
+    #page2 .slide .content {
+        right: 0;
+        padding-top: 160px;
+        width: auto;
+    }
+    #page2 .slide .content h2 {
+        font-size: 32px;
+    }
+    #page2 .slide .image {
+        width: 100%;
+        padding-bottom: 170px;
+        bottom: 0;
+    }
+}
